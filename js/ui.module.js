@@ -52,7 +52,7 @@ export class Ui{
               <p>Platform:  <span class="badge text-bg-info">${data.platform}</span> </p>
               <p>Status:  <span class="badge text-bg-info">${data.status}</span> </p>
               <p class="small">${data.description}</p>
-              <a class="btn btn-outline-secondary text-bg-primary" href="${data.game_url}" >Show game</a>
+              <a class="btn btn-outline-secondary text-bg-primary" target="_blank" href="${data.game_url}" >Show game</a>
             </div>`
             document.getElementById('detailsContent').innerHTML= detailsBox;
     }
