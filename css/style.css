@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-   font-family: cursive;
+   font-family:Georgia, 'Times New Roman', Times, serif;
    font-size: 17px;
    color:  #fff !important;
 }
@@ -41,7 +41,6 @@ span {
    font-size: 14px !important;
    padding-top: 10px;
    font-weight: bold;
-   font-family: cursive;
 }
 
 ul {
